@@ -1,0 +1,77 @@
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative; /* Add this line */
+}
+
+.colRight {
+    flex: 1;
+    padding-right: 16px;
+}
+
+.title h1 {
+    font-size: 1.5em;
+    margin: 0 0 8px 0;
+}
+
+.authorAndDate {
+    margin: 8px 0;
+}
+
+.authorAndDateText p {
+    margin: 4px 0;
+    color: #555;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.colLeft {
+    flex-shrink: 0;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+}
+
+.imageContainer img {
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+}
+
+
+
+.deleteButton {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.deleteButton button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.deleteButton button:hover {
+    background-color: #ff1a1a;
+}
